@@ -1,0 +1,230 @@
+v0.6:
+	- Start of changelog.
+	- Reindentation of HTML.
+	- Removed dependancy to Bootstrap.
+
+v0.7:
+	- CSS cleanup.
+	- Removed Speed message.
+	- Improved image display.
+	- Fixed double bar flickering when selecting local pictures.
+	
+v0.8:
+	- JS refactor.
+	- Added some randomness to time bars.
+	- Added some randomness to stroke control.
+	- Changed intro text.
+	- Added image count when not using own pictures.
+	- Added image quality option for e621 images.
+	- Fixed stroke control visible or invisible at the wrong time.
+	- Can disable console messages.
+	
+v0.9:
+	- Now possible to use an e6 user's favorites as pic set.
+	- Little text tweaks.
+	- Minor CSS changes to align stuff better.
+	- Added "tick all" option.
+	- Generated new preset e6 pics.
+	
+v0.10:
+	- Remade game progression logic.
+	- Added option to select species in an inclusive way.
+	- Added new gamemode "endurance".
+	
+v0.11:
+	- Separated preset pics list.
+	- UI tweaks.
+	- Added placeholder characters.
+	
+v0.12:
+	- New e6 pics preset list.
+	
+v0.13:
+	- Fixed broken FA link.
+	- Filtered out webm and flash from loaded faves.
+	- Improved images preload management.
+	- Now warning if no pictures were selected when starting the game.
+	- Added slideshow gamemode.
+	- Added back to menu button at end of games.
+	- Game now baits with cumbar instead of always showing it.
+	- Changed endurance times.
+	- Added colors to keywords in rules.
+	- Added help buttons where useful.
+	
+v0.14:
+	- Gentle endurance mode text change to actually hint at ending near.
+	- Changed intro text.
+	- Added cum picture option.
+	- Displaying stop sign on stop screens.
+	
+v0.15:
+	- Fixed unexpected onload errors in imageManager.
+	- Fixed JS error for some browsers not having Object.assign.
+	
+v0.16:
+	- Improved local files loading.
+	- Broke online dependancy for font loading.
+	- Improved connectivity error management.
+	- Adjusted difficulty.
+	
+v0.17:
+	- Changed RNG method to random list.
+	- Adjusted Edge time settings.
+	- Removed specific cum message.
+	- Removed difficulty setting.
+	
+v0.18:
+	- Removed "cum" bait when selecting 0% in edge mode.
+	- Label says "CUM?" instead of "CUM!" when in edging phase. Will say "CUM!" in cum phase.
+	- Fixed E6 API usage following E6 update.
+	- Fixed bug when wrong times values are entered in slideshow.
+	- Added error handling when loading e621 favorites.
+	- Removed e6 presets.
+	
+v0.19:
+	- Added main Character.
+	- Added gender swap icons.
+	- Added proper error message when e6 user's favorites are private.
+	- Added character heads next to messages.
+	- Added very short duration (5 minutes).
+	- Local pictures help appears automatically the first time the user selects it.
+	- Added game name.
+	- Adjusted size of controls and images.
+	
+v1.0:
+	- First private release.
+	
+v1.0.1:
+	- Better UI for mobile devices.
+
+v1.0.2
+	- Added e6 search.
+	- Added Toy/multiplayer suggestion in rules.
+	- Added credits section.
+	- Added skip picture button in edge/endurance.
+	- Pressing the right arrow key is now a shortcut for the next/skip button.
+	- Added sliders to select some options.
+	
+v1.0.3
+	- Saved some more settings in local storage.
+	- Added individual picture blacklist.
+	- Added tags blacklist.
+	
+v1.0.4
+	- Fixed search bug not finding results when no blacklist tag is specified.
+	
+v1.1:
+	- Added logo.
+
+v1.1.1:
+	- Fixed loading of files: changed files loading permissions for itch.io hosting.
+	
+v1.1.2:
+	- Fixed mobile display for bigger phones not being applied.
+	- Small CSS tweak to avoid scrollbars.
+	
+v1.1.3:
+	- Changed CSP to allow anything, else cum picture cannot be loaded from unpredictable URL.
+	
+v1.1.4:
+	- Added Pause shortcut key.
+	- Added time info in the mood options.
+	- Readjusted Endurance max time in Average and Evil to be a bit lower.
+	
+v1.1.5:
+	- Added error message when starting without a gamemode selected.
+	- Added check for username existence when loading favorites.
+	
+v1.1.6:
+	- Added previous picture button.
+	- Added e621 page viewing button.
+	
+v1.1.7:
+	- Fixed button display bugs and prevented more blacklisted pictures from reappearing in the same session.
+	
+v1.1.8:
+	- Small images now scale up to fill screen.
+	- Added background pulse stroke incidator option.
+
+v1.1.9:
+	- Fixed empty image bug on Stop phases.
+	
+v1.1.10:
+	- Fixed blacklist search query not working properly.
+	
+v1.1.11:
+	- Fixed picture filenames with special characters not working properly.
+
+v1.1.12:
+	- Fixed background flash mode not working in endurance mode.
+	
+v1.1.13:
+	- Fixed endurance start text sometimes duplicating.
+
+v1.2:
+	- Added !DOCTYPE and fixed CSS issues on Chrome.
+	- Added new EXE container for downloadable local version.
+	- Reworked local pictures loading.
+
+v1.2.3:
+	- Windows: "view in e621" uses the default browser.
+	- Windows: F11 toggles full screen mode.
+	- Fixed occasional wrong picture displayed after blacklisting a picture.
+	- No longer reducing JS file size, code is now readable.
+	
+v1.2.4:
+	- Windows: Can now zoom with CTRL +/- and CTRL mousewheel.
+	- Added audible beat option.
+	
+v1.2.5:
+	- Fixed audible beat not keeping up with high speeds.
+	
+v1.2.6:
+	- Fixed bug in edging time calculation.
+	
+v1.2.7:
+	- UI tweak for phone screens.
+
+v1.2.8:
+	- Fixed syntax error introduced in 1.2.6.
+
+v1.3.0:
+	- Added advanced options menu.
+	- Added background colour option.
+	- Added option to show pictures in stop steps.
+	- Added option to autoswitch pictures within the same step. 
+	- Added Blacklist management.
+	- Added picture lists.
+	- Added notifications.
+	- Dialog is more body neutral.
+	- Added flavour dialog.
+	
+v1.3.1:
+	- Added default blacklist as implemented by e6 when opening the app for the first time.
+	- Added +/- buttons to sliders.
+	- Minor menu UI fixes.
+	- Added option to disable stop steps in edge/endurance.
+	- Removed "Browse" as a "Gamemode", added "Display images" button instead.
+	- Added "A" and "D" as navigating arrow shortcuts.
+
+v1.4.0:
+	- Added support for Buttplug.io Intiface connection.
+	- Added calibration option for vibration.
+	- Added max vibration option for cum steps.
+	- Added option to change steps speed.
+	- Added separate picture change speed for cum step.
+	- During gameplay, pictures now get bookmarked to later be added to lists.
+	- APK now built with Cordova: no ad on closing the app.
+
+v1.4.1:
+	- Fixed APK unable to connect to Intiface Central.
+	- Added swipe motions in game.
+
+v1.4.2:
+	- Removed JQuery lib.
+	- Fixed typo in picture change speed option.
+	- Fixed minor bug in Add to list controls UI.
+	- Browse view UI has bigger buttons on mobile.
+	- Added option to have occasional elapsed time info.
+	- Can start the game with no images selected (confirm popup).
+	- Added more interactions with Intiface central devices.
